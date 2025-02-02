@@ -1,6 +1,6 @@
 #include <stdio.h>
-int area_of_circle(float);
-int area_of_circle(float radius){
+float area_of_circle(float);
+float area_of_circle(float radius){
     float pi=3.14;
     return pi*radius*radius;
 }
