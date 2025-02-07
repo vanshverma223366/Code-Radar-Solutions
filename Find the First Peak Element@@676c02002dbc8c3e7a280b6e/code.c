@@ -8,7 +8,7 @@ int main() {
     }
     int largest=arr[0];
     for (int i=0;i<n;i++){
-        if (arr[i]>largest+2){
+        if (arr[i]>largest+2||arr[i]>largest){
             largest=arr[i];
             printf("%d",largest);
             break;
