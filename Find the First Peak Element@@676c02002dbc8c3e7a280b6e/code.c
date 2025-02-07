@@ -10,8 +10,10 @@ int main() {
     for (int i=0;i<n;i++){
         if (arr[i]>largest){
             largest=arr[i];
+            printf("\n%d",largest);
+            break;
         }
     }
-    printf("\n%d",largest);
+
     return 0;
 }
