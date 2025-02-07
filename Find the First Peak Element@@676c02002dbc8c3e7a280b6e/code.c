@@ -13,6 +13,9 @@ int main() {
             printf("%d",largest);
             break;
         }
+        else{
+            printf("-1");
+        }
     }
 
     return 0;
