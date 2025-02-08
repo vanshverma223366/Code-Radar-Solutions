@@ -1,5 +1,5 @@
 #include <stdio.h>
-float average(int a,int b,int c){
+float average(float a,float b,float c){
     float avg=(a+b+c)/3;
     return avg;
 }
