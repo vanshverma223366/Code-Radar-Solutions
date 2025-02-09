@@ -13,9 +13,8 @@ int main() {
             notSorted+=1;
         }
     }
-    if(n==1){
-        printf("Not Sorted");}
-    else if(sorted>=(n-1)){
+
+    if(sorted>=(n-1)){
         printf("Sorted");
     }else if(notSorted>0){
         printf("Not Sorted");
