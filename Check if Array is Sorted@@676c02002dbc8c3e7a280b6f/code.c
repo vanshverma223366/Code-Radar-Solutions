@@ -14,12 +14,12 @@ int main() {
         }
     }
     if(n==1){
-        printf("Not Sorted");
+        printf("Not Sorted");}
     else if(sorted>=(n-1)){
         printf("Sorted");
     }else if(notSorted>0){
         printf("Not Sorted");
     }
-    }
+    
     return 0;
 }
