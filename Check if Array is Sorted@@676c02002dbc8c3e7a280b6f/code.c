@@ -15,7 +15,7 @@ int main() {
     }
     if(sorted>=(n-1)){
         printf("Sorted");
-    }else if(notSorted>=n-1){
+    }else if(notSorted>0){
         printf("Not Sorted");
     }
     return 0;
