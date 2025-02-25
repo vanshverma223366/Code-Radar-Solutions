@@ -4,8 +4,9 @@ int main(){
     scanf("%d",&N);
     for (int i=0;i<=N;i++){
         for (int j=65;j<65+i;j++){
-            printf("%c ",j);}
-            printf("\n");
+            printf("%c ",j);
+            }
+        printf("\n");
     }
   return 0;  
 }
