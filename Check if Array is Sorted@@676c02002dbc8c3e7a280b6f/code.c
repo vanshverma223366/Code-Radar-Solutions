@@ -11,6 +11,7 @@ int main() {
             sorted+=1;
         }else{
             notSorted+=1;
+            break;
         }
     }
 
