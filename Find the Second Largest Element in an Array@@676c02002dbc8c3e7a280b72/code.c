@@ -8,12 +8,12 @@ int main(){
     }
     int largest=array[0] ,slargest=array[0];
     for (int i=0;i<n;i++){
-        if (array[i]>largest);
-        largest=array[i];
+        if (array[i]>largest){
+        largest=array[i];}
     }
     for (int i=0;i<n;i++){
-        if (array[i]>slargest && slargest!=largest);
-        slargest=array[i];
+        if (array[i]>slargest && array[i]!=largest);{
+        slargest=array[i];}
 
     }
     printf("%d",slargest);
