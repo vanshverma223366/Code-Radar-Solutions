@@ -6,8 +6,13 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&array[i]);
     }
+    
     int largest=array[0] ,slargest=array[0];
     for (int i=0;i<n;i++){
+        if (array[i]==array[i+1]){
+            printf("-1");
+            break;
+        }
         if (array[i]>largest){
         largest=array[i];}
     }
