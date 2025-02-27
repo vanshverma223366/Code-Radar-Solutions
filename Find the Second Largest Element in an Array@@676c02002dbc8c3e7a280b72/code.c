@@ -12,7 +12,7 @@ int main(){
         largest=array[i];}
     }
     for (int i=0;i<n;i++){
-        if (array[i]>slargest && array[i]!=largest){
+        if (array[i]>slargest && array[i]<largest){
         slargest=array[i];}
 
     }
