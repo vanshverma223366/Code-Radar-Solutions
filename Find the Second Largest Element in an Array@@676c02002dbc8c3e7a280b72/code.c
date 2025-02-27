@@ -29,8 +29,9 @@ int main() {
         if (array[i] > slargest && array[i] < largest) {
             slargest = array[i];
         }
-        else;
+        else{
         printf("-1");
+        break;}
     }
 
     if (slargest == -1) {
