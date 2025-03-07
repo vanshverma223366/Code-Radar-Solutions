@@ -1,14 +1,20 @@
-#include<stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
-    for (int i=1;i<=n;i++){
-        for (int j=1;j<i;j++){
+#include <stdio.h>
+void starPattern(int n);
+void starPattern(int n){
+    for(int i=1;i<=n;i++){
+        for(int k=n-i;k>0;k--){
             printf(" ");
         }
-        for (int k=1;k<=i;k++){
-            printf("%d",k);
+        for(int j=1;j<=i;j++){
+            printf("* ");
         }printf("\n");
     }
+}
+
+int main() {
+    int n;
+    scanf("%d", &n);
+    starPattern(n);
+    
     return 0;
 }
