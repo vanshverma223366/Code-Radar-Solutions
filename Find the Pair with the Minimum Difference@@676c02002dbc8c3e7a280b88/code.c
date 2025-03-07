@@ -6,7 +6,7 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&array[i]);
     }
-    int smallestDiff=100,I=0,J=0;
+    int smallestDiff=1000,I=0,J=0;
     for (int i=0;i<n;i++){
         for (int j=0;j<n;j++){
         
