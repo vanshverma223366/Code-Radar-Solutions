@@ -5,7 +5,7 @@ void starPattern(int n){
         for(int k=n-i;k>0;k--){
             printf(" ");
         }
-        for(int j=1;j<=2i;j+=2){
+        for(int j=1;j<=2*i;j+=2){
             printf("*");
         }printf("\n");
     }
